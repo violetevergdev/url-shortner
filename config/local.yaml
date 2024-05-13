@@ -1,0 +1,7 @@
+
+env: "local" # "local" or "dev" or "prod"
+storage_path: "database/storage.db"
+http_server:
+  address: ":8082"
+  timeout: 4s # время на чтение запроса и запись ответа
+  idle_timeout: 60s # время ожидания запроса
